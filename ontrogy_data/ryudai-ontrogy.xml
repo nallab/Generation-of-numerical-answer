@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="琉球大学オントロジー.xml" ont_id="1571653336254ont" >
+<FILENAME_ONT>琉球大学オントロジー.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="8900" h="8726" x="11" y="0" />
+<CONCEPT id="1573441881024_n3" >
+<LABEL>琉球大学</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="79" y="85"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1573441881024_n4" visible="false" >
+<LABEL>大学院</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="202" y="21"/>
+<SLOTS>
+<SLOT id="1573441881024_s5" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="年数"  class_constraint="Any"  rh_name=""  value="2" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1573441881024_n8" >
+<LABEL>学費</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="44" y="178"/>
+<SLOTS>
+<SLOT id="1573441881024_s9" 
+ type="NW"  label="slot"  kind="p/o"  num=""  role="授業料"  class_constraint="年間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="年間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1573441881024_s10" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="入学料"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1573441881024_s11" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="検定料"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1573441881024_n12" >
+<LABEL>年間</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="212" y="180"/>
+<SLOTS>
+<SLOT id="1573441881024_s13" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="前期"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1573441881024_s14" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="後期"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1573449373698_n12" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="19" y="20"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580568355614_n11" >
+<LABEL>学部</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="195" y="96"/>
+<SLOTS>
+<SLOT id="1580569069136_s12" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="年数"  class_constraint="Any"  rh_name=""  value="4" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1573441881024_isa17" parent="琉球大学" child="大学院" />
+<ISA id="1573441881024_isa19" parent="琉球大学" child="年間" />
+<ISA id="1573449373698_isa16" parent="Any" child="琉球大学" />
+<ISA id="1580567845381_isa17" parent="琉球大学" child="学費" />
+<ISA id="1580568355614_isa17" parent="琉球大学" child="学部" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="8900" h="8726" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="EPSON SC-T5200 Series" />
+</PRINTER>
+</OE_FILE>
